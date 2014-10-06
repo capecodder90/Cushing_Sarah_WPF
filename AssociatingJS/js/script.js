@@ -1,0 +1,1 @@
+alert("This is the script.js file in the js folder!");
