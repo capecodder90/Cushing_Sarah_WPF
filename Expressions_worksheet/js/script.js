@@ -24,7 +24,7 @@ console.log(numSlices);//  Writes the result of the numSlices variable to the co
 //Problem: Slice of Pie Part II
 // The number of whole slices Sparky gets to eat is equal to the number of slices times the number of pizzas divided by the number of people
 var sparkySlices = numPizzas * slicePerPizza / partyGoers; // the number of pizzas times the number of slices per pizza, divided by the number of people
-console.log(parseInt(sparkySlices)); // writes the number as a whole integer in the console
+console.log("Sparky got " + parseInt(sparkySlices) + " slices of pizza."); // writes the number as a whole integer in the console, concatenates the strings
 
 //Problem: Average Shopping Bill
 // The average weekly grocery shopping amount is equal to the five week's totals added together, and then divided by five
@@ -32,11 +32,12 @@ var shopTotals = new Array(250, 300, 100, 123, 281); // array of shopping totals
 var totalAmt = shopTotals[0] + shopTotals[1] + shopTotals[2] + shopTotals[3] + shopTotals[4]; // finds the sum of the totals for all five weeks
 var average = totalAmt / 5; // finds the average for the five weeks
 
-console.log("You have spent a total of " + "\u0024" + totalAmt + " on groceries over 5 weeks. That is an average of " + "\u0024" + average + " per week."); // concatenates the strings and prints them to the console
+console.log("You have spent a total of " + "$" + totalAmt + " on groceries over 5 weeks. That is an average of " + "$" + average + " per week."); // concatenates the strings and prints them to the console
 
 //Problem: Discounts
+// The item's price with tax is equal to the original price times the sales tax plus the original price minus the discount. The item's price without tax is equal to the original price minus the discount.
 var origPrice = 250; // items original price
-var percDiscount = 20; // item discount precent
+var percDiscount = 20; // item discount percent
 var itemDescrip = "Netbook"; // item description
 var salesTax = origPrice * 0.0625; // item sales tax
 var wTax = (origPrice - origPrice * (percDiscount / 100)) + salesTax; // price of item with the discount and sales tax (20 / 100 = .20, .20 * $250 = $50, $250 - $50 = $200, $250 * 0.0625 = $15.625, $200 + 15.625 = $215.625)
