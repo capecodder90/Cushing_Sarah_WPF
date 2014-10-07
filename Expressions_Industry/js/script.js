@@ -4,7 +4,7 @@
  Expressions Assignment: Industry Related
  */
 
-// Calculate the percentage for the width and gutter (margin) of a responsive two-column web page layout.
+// Calculate the percentage for the width and gutter (margin) of a responsive two-column web page layout. The sum of the percentages should equal 100%.
 
 // Determine the width (in pixels) of the page container.
 var pgCont = prompt("What is the width of the page container in pixels?"); // prompts the user to enter the page container width and stores the response
@@ -38,6 +38,6 @@ var percWidths = "The first column with the ID of " + "\"" + elementID[0] + "\""
 // Write the result to the console.
 console.log(percWidths);
 
-
-
-console.log(firColWidth + secColWidth + margin);
+// Determine if the sum of the percentages equals 100%
+var isCorrect = firColWidth + secColWidth + margin == 100;
+console.log("The statement \"The sum of the percentages for the two columns and the margin is 100%\" is " + isCorrect + ".");
