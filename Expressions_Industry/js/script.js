@@ -11,3 +11,5 @@ var pgCont = prompt("What is the width of the page container in pixels?"); // pr
 
 // Determine the width of the first column (in pixels).
 var firCol = prompt("What is the width of the first column in pixels?"); // prompt the user to enter the first column width and store the response
+
+var secCol = prompt("What is the width of the second column in pixels?");
