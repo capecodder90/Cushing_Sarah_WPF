@@ -23,3 +23,5 @@ var firColWidth = pgCont / firCol * 100; // divides the page container width by 
 
 // Calculate the percentage for the width of the second column.
 var secColWidth = pgCont / secCol * 100; // divides the page container width by the width of the second column, then multiplies the decimal by 100 to get the percent
+
+var margin = pgCont / marRight;
