@@ -40,8 +40,10 @@ console.log("You will be able to drive " + numMiles[0] + " miles with the " + ca
 // Ask the user how many miles they need to drive.
 var milesNeeded = prompt("How many miles do you need to drive?"); // prompts the user to enter the number of miles they need to drive to reach their destination.
 
-var useCar1 = numMiles[0] >= milesNeeded;
-var useCar2 = numMiles[1] >= milesNeeded;
-var useCar3 = numMiles[2] >= milesNeeded;
+// Calculate whether the number of miles each car can drive will allow the user to reach their destination.
+var useCar1 = numMiles[0] >= milesNeeded; // determine if the number of miles Car 1 can travel is greater than or equal to the number of miles to the destination. Record true or false.
+var useCar2 = numMiles[1] >= milesNeeded; // determine if the number of miles Car 2 can travel is greater than or equal to the number of miles to the destination. Record true or false.
+var useCar3 = numMiles[2] >= milesNeeded; // determine if the number of miles Car 3 can travel is greater than or equal to the number of miles to the destination. Record true or false.
 
-console.log("You should use the " + carName[0] + ": " + useCar1 + " or " + "you should use the " + carName[1] + ": " + useCar2 + " or " + "you should use the " + carName[2] + ": " + useCar3);
+// Print the results to the console.
+console.log("You should use the " + carName[0] + ": " + useCar1 + " or " + "you should use the " + carName[1] + ": " + useCar2 + " or " + "you should use the " + carName[2] + ": " + useCar3); // concatenates the strings and prints the results of which car can or cannot be used to reach the user's destination.
