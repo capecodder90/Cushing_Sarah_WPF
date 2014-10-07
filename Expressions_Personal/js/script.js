@@ -42,4 +42,5 @@ var milesNeeded = prompt("How many miles do you need to drive?"); // prompts the
 
 var useCar1 = numMiles[0] >= milesNeeded;
 var useCar2 = numMiles[1] >= milesNeeded;
-console.log(useCar1 + " " + useCar2);
+var useCar3 = numMiles[2] >= milesNeeded;
+console.log(useCar1 + " " + useCar2 + " " + useCar3);
