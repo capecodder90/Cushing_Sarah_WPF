@@ -28,9 +28,10 @@ var secColWidth = secCol / pgCont * 100; // divides the width of the second colu
 var margin = marRight / pgCont * 100; // divides the size of the right margin by the page container width, then multiplies the decimal by 100 to get the percent
 
 // Determine the IDs for the two columns.
-var elementID = new Array (2);
-elementID[0] = prompt("What is the ID of the first column?");
-elementID[1] = prompt("What is the ID of the second column?");
+var elementID = new Array (2); // creates a new variable with an array
+elementID[0] = prompt("What is the ID of the first column?"); // prompts the user for the ID for the first column, then stores the input
+elementID[1] = prompt("What is the ID of the second column?"); // prompts the user for the ID for the second column, then stores the input
+
 
 
 
