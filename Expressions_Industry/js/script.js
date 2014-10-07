@@ -35,6 +35,8 @@ elementID[1] = prompt("What is the ID of the second column?"); // prompts the us
 // Store the data in the variable percWidths.
 var percWidths = "The first column with the ID of " + elementID[0] + " will have a percentage width of " + firColWidth + "; the second column with the ID of " + elementID[1] + " will have a percentage width of " + secColWidth + "; the right margin of the first column with be " + margin + "%."; // Concatenate the strings.
 
+// Write the result to the console.
+console.log(percWidths);
 
 
 
