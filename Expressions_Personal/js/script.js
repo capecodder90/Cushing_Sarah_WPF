@@ -28,9 +28,11 @@ var numGallons = yourMoney / gasPrice; // divide the amount of money available f
 // print the number of gallons that they can buy to the console
 console.log("You can afford " + numGallons + " gallons of gas.");
 
-var numMiles = new Array(3);
-numMiles[0] = mpg[0] * numGallons;
-numMiles[1] = mpg[1] * numGallons;
-numMiles[2] = mpg[2] * numGallons;
+// calculate the number of miles each car can go on the amount of gas that can be purchased
+var numMiles = new Array(3); // used to store the number of miles for each car
+numMiles[0] = mpg[0] * numGallons; // calculates the number of miles for the first car by multiplying the miles per gallon by the number of gallons purchased
+numMiles[1] = mpg[1] * numGallons; // calculates the number of miles for the second car by multiplying the miles per gallon by the number of gallons purchased
+numMiles[2] = mpg[2] * numGallons; // calculates the number of miles for the third car by multiplying the miles per gallon by the number of gallons purchased
 
-console.log("You will be able to drive " + numMiles[0] + " miles with the " + carName[0] + ", " + numMiles[1] + " miles with the " + carName[1] + ", and " + numMiles[2] + " miles with the " + carName[2] + ".");
+// Print the number of miles each car can drive to the consoles
+console.log("You will be able to drive " + numMiles[0] + " miles with the " + carName[0] + ", " + numMiles[1] + " miles with the " + carName[1] + ", and " + numMiles[2] + " miles with the " + carName[2] + "."); // concatenates the strings and pulls in the stored data for each array element
