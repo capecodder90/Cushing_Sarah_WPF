@@ -36,3 +36,6 @@ numMiles[2] = mpg[2] * numGallons; // calculates the number of miles for the thi
 
 // Print the number of miles each car can drive to the consoles
 console.log("You will be able to drive " + numMiles[0] + " miles with the " + carName[0] + ", " + numMiles[1] + " miles with the " + carName[1] + ", and " + numMiles[2] + " miles with the " + carName[2] + "."); // concatenates the strings and pulls in the stored data for each array element
+
+var milesNeeded = prompt("How many miles do you need to drive?");
+
