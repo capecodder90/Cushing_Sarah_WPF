@@ -41,3 +41,4 @@ console.log("You will be able to drive " + numMiles[0] + " miles with the " + ca
 var milesNeeded = prompt("How many miles do you need to drive?"); // prompts the user to enter the number of miles they need to drive to reach their destination.
 
 var useCar1 = numMiles <= milesNeeded;
+console.log(useCar1);
