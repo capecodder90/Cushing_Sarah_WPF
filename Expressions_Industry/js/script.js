@@ -17,3 +17,5 @@ var secCol = prompt("What is the width of the second column in pixels?"); // pro
 
 // Define the gutter (margin-right) in pixels.
 var marRight = 40; // declares and defines the gutter
+
+var firColWidth = pgCont / firCol * 100;
