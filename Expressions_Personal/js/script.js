@@ -16,9 +16,7 @@ tankSize[0] = prompt("What is the size (in gallons) of the " + carName[0] + "'s 
 tankSize[1] = prompt("What is the size (in gallons) of the " + carName[1] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 2
 tankSize[2] = prompt("What is the size (in gallons) of the " + carName[2] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 3
 
-prompt("What is the size (in gallons) of your gas tank?"); // asks the user to input the size in gallons of each gas tank
-var gasPrice = prompt("What is the current price of gas per gallon?");
-var yourMoney = prompt("How much money do go you for gas?");
-var mpg = new Array[12, 34, 40];
+var gasPrice = prompt("What is the current price of gas per gallon?"); // asks to input the current price of gas
+var yourMoney = prompt("How much money, to the nearest whole dollar, do you have in your pocket for gas?"); // asks the user to input the amount of money they have in their pocket
 
 var amtOfGas =
