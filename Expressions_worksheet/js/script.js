@@ -34,3 +34,12 @@ var average = totalAmt / 5; // finds the average for the five weeks
 
 console.log("You have spent a total of " + "\u0024" + totalAmt + " on groceries over 5 weeks. That is an average of " + "\u0024" + average + " per week."); // concatenates the strings and prints them to the console
 
+//Problem: Discounts
+var origPrice = 250; // items original price
+var percDiscount = 20; // item discount precent
+var itemDescrip = "Netbook"; // item description
+var salesTax = origPrice * 0.0625; // item sales tax
+var wTax = (origPrice - origPrice * (percDiscount / 100)) + salesTax; // price of item with the discount and sales tax (20 / 100 = .20, .20 * $250 = $50, $250 - $50 = $200, $250 * 0.0625 = $15.625, $200 + 15.625 = $215.625)
+var woTax = origPrice - origPrice * (percDiscount / 100); // price of the item with the discount only (20 / 100 = .20, .20 * $250 = $50, $250 - $50 = $200)
+
+console.log("Your " + itemDescrip + " was originally $" + origPrice + ", but after a " + percDiscount + "% discount, it is now $" + woTax + " without tax, and $" + wTax + " with tax."); // concatenates the strings and writes them to the console
