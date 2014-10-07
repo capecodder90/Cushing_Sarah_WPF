@@ -19,12 +19,12 @@ var secCol = prompt("What is the width of the second column in pixels?"); // pro
 var marRight = 40; // declares and defines the gutter
 
 // Calculate the percentage for the width of the first column.
-var firColWidth = pgCont / firCol * 100; // divides the page container width by the width of the first column, then multiplies the decimal by 100 to get the percent
+var firColWidth = firCol / pgCont * 100; // divides the width of the first column by the page container width, then multiplies the decimal by 100 to get the percent
 
 // Calculate the percentage for the width of the second column.
-var secColWidth = pgCont / secCol * 100; // divides the page container width by the width of the second column, then multiplies the decimal by 100 to get the percent
+var secColWidth = secCol / pgCont * 100; // divides the width of the second column by the page container width, then multiplies the decimal by 100 to get the percent
 
 // Calculate the percentage for the gutter (margin-right).
-var margin = pgCont / marRight * 100; // divides the page container width by the size of the right margin, then multiplies the decimal by 100 to get the percent
+var margin = marRight / pgCont * 100; // divides the size of the right margin by the page container width, then multiplies the decimal by 100 to get the percent
 
 console.log(firColWidth + secColWidth + margin);
