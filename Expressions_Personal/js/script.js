@@ -4,7 +4,7 @@ Tuesday, October 7, 2014
 Expressions Assignment: Personal
  */
 
-// You have three different cars available to you. Enter what the name of the vehicle is and the miles-per-gallon. Determine how much gas you can put into each car's gas tank with the amount of money you have in your pocket. How many miles will you be able to drive with this much gas in each of the cars. How many miles do you need to drive? Determine which vehicle would get you the closest to your destination using the least fuel efficient car possible. Assume all three car's gas tanks are empty to start.
+// You have three different cars available to you. Enter what the name of the vehicle is and the miles-per-gallon. Determine how much gas you purchase with the amount of money you have in your pocket. How many miles will you be able to drive with this much gas in each of the cars. How many miles do you need to drive? Determine which vehicle would get you the closest to your destination using the least fuel efficient car possible. Assume all three car's gas tanks are empty to start.
 
 var carName = new Array(3); // used to store the names of the three cars
 carName[0] = prompt("What is the name of your first car?"); // asks the user to input the name of the first car.
@@ -19,4 +19,6 @@ tankSize[2] = prompt("What is the size (in gallons) of the " + carName[2] + "'s 
 var gasPrice = prompt("What is the current price of gas per gallon?"); // asks to input the current price of gas
 var yourMoney = prompt("How much money, to the nearest whole dollar, do you have in your pocket for gas?"); // asks the user to input the amount of money they have in their pocket
 
-var amtOfGas =
+var numGallons = yourMoney / gasPrice;
+
+console.log("You can afford " + numGallons + " gallons of gas.");
