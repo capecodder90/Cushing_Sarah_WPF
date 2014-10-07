@@ -12,9 +12,9 @@ carName[1] = prompt("What is the name of your second car?"); // asks the user to
 carName[2] = prompt("What is the name of your third car?"); // asks the user to input the name of the third car.
 
 var tankSize = new Array(3); // used to store the tank sizes of each of the three cars
-tankSize[0] = prompt("What is the size (in gallons) of the " + carName[0] + "'s gas tank?");
-tankSize[1] = prompt("What is the size (in gallons) of the " + carName[1] + "'s gas tank?");
-tankSize[2] = prompt("What is the size (in gallons) of the " + carName[2] + "'s gas tank?");
+tankSize[0] = prompt("What is the size (in gallons) of the " + carName[0] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 1
+tankSize[1] = prompt("What is the size (in gallons) of the " + carName[1] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 2
+tankSize[2] = prompt("What is the size (in gallons) of the " + carName[2] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 3
 
 prompt("What is the size (in gallons) of your gas tank?"); // asks the user to input the size in gallons of each gas tank
 var gasPrice = prompt("What is the current price of gas per gallon?");
