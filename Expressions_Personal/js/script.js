@@ -12,11 +12,11 @@ carName[0] = prompt("What is the name of your first car?"); // asks the user to 
 carName[1] = prompt("What is the name of your second car?"); // asks the user to input the name of the second car.
 carName[2] = prompt("What is the name of your third car?"); // asks the user to input the name of the third car.
 
-// Have the user input the tank size of each of the three cars
-var tankSize = new Array(3); // used to store the tank sizes of each of the three cars
-tankSize[0] = prompt("What is the size (in gallons) of the " + carName[0] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 1
-tankSize[1] = prompt("What is the size (in gallons) of the " + carName[1] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 2
-tankSize[2] = prompt("What is the size (in gallons) of the " + carName[2] + "'s gas tank?"); // asks the user to input the size of the gas tank in car number 3
+// Have the user input the miles per gallon of each of the three cars
+var mpg = new Array(3); // used to store the miles per gallon of each of the three cars
+mpg[0] = prompt("How many miles per gallon does the " + carName[0] + " get?"); // asks the user to input the miles per gallon for car number 1
+mpg[1] = prompt("How many miles per gallon does the " + carName[1] + " get?"); // asks the user to input the miles per gallon for car number 2
+mpg[2] = prompt("How many miles per gallon does the " + carName[2] + " get?"); // asks the user to input the miles per gallon for car number 3
 
 // Provide the price of gas, and ask the user to input the amount of money they have
 var gasPrice = 3.50; // the price of gas
@@ -28,3 +28,5 @@ var numGallons = yourMoney / gasPrice; // divide the amount of money available f
 // print the number of gallons that they can buy to the console
 console.log("You can afford " + numGallons + " gallons of gas.");
 
+var numMiles = new Array(3);
+numMiles[0] = tankSize[0] /
