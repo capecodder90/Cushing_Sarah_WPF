@@ -17,6 +17,11 @@ console.log(dogYrs); // displays the result of the calculations and concatenatio
 var slicePerPizza = 10; // the number of slices per pizza
 var partyGoers = 38; // the number of party goers
 var numPizzas = 12; // the number of pizzas ordered
-var numSlices = "Each person ate " + slicePerPizza * numPizzas / partyGoers + " slices of pizza at the party."; // the result variable, calculates the slices per pizza times the number of pizzas divided by the number of party goers to determine how many slices each person gets. Concatenates the strings.
+var numSlices = "Each person ate " + slicePerPizza * numPizzas / partyGoers + " slices of pizza at the party."; // The result variable. Calculates the slices per pizza times the number of pizzas divided by the number of party goers to determine how many slices each person gets, then concatenates the strings
 
-console.log(numSlices);
+console.log(numSlices);//  Writes the result of the numSlices variable to the console
+
+//Problem: Slice of Pie Part II
+// The number of whole slices Sparky gets to eat is equal to the number of slices times the number of pizzas divided by the number of people
+var sparkySlices = numPizzas * slicePerPizza / partyGoers; // the number of pizzas times the number of slices per pizza, divided by the number of people
+console.log(parseInt(sparkySlices)); // writes the number as a whole integer in the console
