@@ -26,3 +26,5 @@ var secColWidth = pgCont / secCol * 100; // divides the page container width by 
 
 // Calculate the percentage for the gutter (margin-right).
 var margin = pgCont / marRight * 100; // divides the page container width by the size of the right margin, then multiplies the decimal by 100 to get the percent
+
+console.log(firColWidth + secColWidth + margin);
