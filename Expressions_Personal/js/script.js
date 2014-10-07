@@ -29,4 +29,8 @@ var numGallons = yourMoney / gasPrice; // divide the amount of money available f
 console.log("You can afford " + numGallons + " gallons of gas.");
 
 var numMiles = new Array(3);
-numMiles[0] = tankSize[0] /
+numMiles[0] = mpg[0] * numGallons;
+numMiles[1] = mpg[1] * numGallons;
+numMiles[2] = mpg[2] * numGallons;
+
+console.log("You will be able to drive " + numMiles[0] + " miles with the " + carName[0] + ", " + numMiles[1] + " miles with the " + carName[1] + ", and " + numMiles[2] + " miles with the " + carName[2] + ".");
