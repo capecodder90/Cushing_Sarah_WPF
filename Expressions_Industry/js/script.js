@@ -14,3 +14,5 @@ var firCol = prompt("What is the width of the first column in pixels?"); // prom
 
 // Determine the width of the second column (in pixels).
 var secCol = prompt("What is the width of the second column in pixels?"); // prompts the user to enter the second column width and stores the response
+
+var marRight = 40;
