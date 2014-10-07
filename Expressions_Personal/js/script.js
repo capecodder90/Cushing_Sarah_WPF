@@ -44,4 +44,4 @@ var useCar1 = numMiles[0] >= milesNeeded;
 var useCar2 = numMiles[1] >= milesNeeded;
 var useCar3 = numMiles[2] >= milesNeeded;
 
-console.log("You should use the " + carName[0] + ": " + useCar1 + "<br />" + "You should use the " + carName[0] + ": " + useCar2 + "<br />" + "You should use the " + carName[0] + ": " + useCar3);
+console.log("You should use the " + carName[0] + ": " + useCar1 + " or " + "you should use the " + carName[1] + ": " + useCar2 + " or " + "you should use the " + carName[2] + ": " + useCar3);
