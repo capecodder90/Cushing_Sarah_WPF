@@ -9,3 +9,5 @@ Expressions Assignment: Wacky
 // Ask the user their favorite brands of chocolate syrup.
 var syrup1 = prompt("What is the brand of your favorite chocolate syrup?"); // declares syrup1 and uses a prompt to ask the user to input the name of their favorite syrup; stores the input
 var syrup2 = prompt("What is the brand of your second favorite chocolate syrup?"); // declares syrup2 and uses a prompt to ask the user to input the name of their second favorite syrup; stores the input
+
+var width = prompt("What is the length of the inside of your bathtub in inches");
