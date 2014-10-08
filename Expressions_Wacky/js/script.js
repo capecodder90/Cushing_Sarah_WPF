@@ -21,9 +21,10 @@ var height = prompt("What is the height of the inside of your bathtub in inches"
 var volume = width * length * height; // declares volume, multiplies the width times the length times the height, stores the calculation
 
 // Print result of formula to the console
-console.log("The volume of your bathtub is " + volume + " cubed inches.");// Print the stored data in the volume variable to the console
+console.log("The volume of your bathtub is " + volume + " cubed inches.");// Prints the stored data in the volume variable to the console
 
 // Convert inches cubed to US gallons liquid: inches cubed divided by 231
 var numGallons = volume / 231; // declares numGallons, calculates the volume divided by 231, stores the answer
 
-
+// Print result of formula to the console
+console.log("Your bathtub holds " + numGallons + " US gallons liquid."); // Prints the stored data in the numGallons variable to the console
