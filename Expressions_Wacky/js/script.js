@@ -12,3 +12,4 @@ var syrup2 = prompt("What is the brand of your second favorite chocolate syrup?"
 
 var width = prompt("What is the length of the inside of your bathtub in inches");
 var length = prompt("What is the width of the inside of your bathtub in inches");
+var height = prompt("What is the height of the inside of your bathtub in inches");
