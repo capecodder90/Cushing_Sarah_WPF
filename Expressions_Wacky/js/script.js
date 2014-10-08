@@ -37,4 +37,4 @@ var tbspPerGal = tbsp * 128 / 8; // declares tbspPerGal, takes the value in tbsp
 console.log("You will need " + tbspPerGal + " tbsp. per US gallon of milk."); // Prints the stored data in the tbspPerGal variable to the console
 
 // Calculate how many tbsp. are need for the number of gallons of milk we are putting in the bathtub.
-var numSyrup = tbspPerGal * numGallons;
+var numSyrup = tbspPerGal * numGallons; // declares numSyrup, multiplies the number of tablespoons per gallon by the number of gallons of milk
