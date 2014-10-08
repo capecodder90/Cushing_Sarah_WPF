@@ -18,3 +18,5 @@ var height = prompt("What is the height of the inside of your bathtub in inches"
 // Calculate the volume of the bathtub
 var volume = width * length * height; // declares volume, multiplies the width times the length times the height, stores the calculation
 
+console.log(volume + " cubed inches");
+
