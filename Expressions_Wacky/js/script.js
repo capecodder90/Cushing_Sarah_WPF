@@ -32,3 +32,6 @@ console.log("Your bathtub holds approximately " + numGallons + " US gallons liqu
 // How many tbsp of syrup per gallon, based on the figure in tbsp per 8 oz?
 var tbsp = 2; // declares tbsp and defines it as 2
 var tbspPerGal = tbsp * 128 / 8; // declares tbspPerGal, takes the value in tbsp, multiples it by 128 (the number of oz in a gallon), and then divides that result by 8 oz (the number of oz held by most drinking glasses)
+
+// Print result of the formula to the console
+console.log("You will need " + tbspPerGal + " tbsp. per US gallon of milk."); // Prints the stored data in the tbspPerGal variable to the console
