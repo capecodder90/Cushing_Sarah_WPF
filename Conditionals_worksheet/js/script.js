@@ -32,6 +32,8 @@ var userPass = String(prompt("What is you password?"));
 var corUserName = "capecodder90";
 var corUserPass = "1234cc";
 
-
+if((userName === corUserName) && (userPass === corUserPass)){
+    console.log("Welcome, " + userName + "!");
+}
 
 // Group 3: Multiple Conditions: Tire Pressure I
