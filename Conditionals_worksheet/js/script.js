@@ -27,11 +27,12 @@ if(amtOfGas * tankCapacity * mpg >= 200){
 
 // Check if the username and password match; if not check if the username if correct, if that is correct, check if the password is correct.
 
-var userName = String(prompt("What is your username?"));
-var userPass = String(prompt("What is you password?"));
-var corUserName = "capecodder90";
-var corUserPass = "1234cc";
+var userName = String(prompt("What is your username?")); // declares userName, prompts the user to enter the user name, converts any input to a string and stores the value
+var userPass = String(prompt("What is you password?")); // declares userPass, prompts the user to enter the password, converts any input to a string and stores the value
+var corUserName = "capecodder90"; // declares corUserName, defines the correct user name
+var corUserPass = "1234cc"; // declares corUserPass, defines the correct password
 
+// Check if the entered username is the same as the correct user name AND check if the entered password is the same as the correct password
 if((userName === corUserName) && (userPass === corUserPass)){
     console.log("Welcome, " + userName + "!");
 }
