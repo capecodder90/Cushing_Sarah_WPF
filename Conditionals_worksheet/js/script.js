@@ -7,7 +7,7 @@ Assignment: Conditionals Worksheet
 // Group 1: Expressions with Conditionals: Last Chance for Gas!
 
 var mpg = 12; // declares mpg, defines as 12 miles per gallon
-var amtOfGas = 99; // declares amtOfGas, defines as 25% of the tank remaining
+var amtOfGas = 10; // declares amtOfGas, defines as 25% of the tank remaining
 var tankCapacity = 30; // declares tankCapacity, defines the tank capacity as 30 gallons
 
 // Calculate whether the vehicle can drive another 200 miles on the amount of gas left in the tank.
