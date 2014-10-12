@@ -25,5 +25,13 @@ if(amtOfGas * tankCapacity * mpg >= 200){
 
 // Group 2: Multiple Results: Check the Login
 
+// Check if the username and password match; if not check if the username if correct, if that is correct, check if the password is correct.
+
+var userName = String(prompt("What is your username?"));
+var userPass = String(prompt("What is you password?"));
+var corUserName = "capecodder90";
+var corUserPass = "1234cc";
+
+
 
 // Group 3: Multiple Conditions: Tire Pressure I
