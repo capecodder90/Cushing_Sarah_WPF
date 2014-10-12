@@ -47,7 +47,7 @@ if((userName === corUserName) && (userPass === corUserPass)){
 
 // Check if the front two tires have the same air pressure and if the rear two tires have the same air pressure
 
-var tirePressure = new Array[80,80,81,81]; // declares the variable tirePressure, assigns an array that store the tire pressure of each tire. Index 0 = front driver's side, index 1 = front passenger's side, index 2 = rear driver's side, index 3 = rear passenger's side
+var tirePressure = new Array(80,80,81,81); // declares the variable tirePressure, assigns an array that store the tire pressure of each tire. Index 0 = front driver's side, index 1 = front passenger's side, index 2 = rear driver's side, index 3 = rear passenger's side
 
 if((tirePressure[0] === tirePressure[1]) && (tirePressure[2] === tirePressure[3])){
     console.log("The tires pass spec!");
