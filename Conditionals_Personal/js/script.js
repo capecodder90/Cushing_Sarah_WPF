@@ -12,6 +12,7 @@ var minTemp = 25; // declares minTemp, defines it as 25
 var sunCap = "Sunny"; // declares sunCap, defines it as Sunny, with an uppercase s
 var sunLow = "sunny"; // declares sunLow, defines it as sunny, with a lowercase s
 var goLandscape; // declares goLandscape
+var sleepIn = "I am going to sleep in today."; // declares sleepIn, defines it with a string
 
 // if the user didn't input anything into the weather prompt, ask them to enter something in the console
 if(weather === ""){
@@ -28,8 +29,11 @@ if(weather === ""){
         goLandscape = "Its " + temp + " F\xB0 outside. I am going landscaping today!";
         // then write it to the console
         console.log(goLandscape);
+     // otherwise, print to the console that I am going to sleep in today
+    }else{
+        console.log(sleepIn);
     }
- // otherwise, print to the console that I am going to sleep in today
+// otherwise, print to the console that I am going to sleep in today
 }else{
-    console.log("I am going to sleep in today.");
+    console.log(sleepIn);
 }
