@@ -15,5 +15,7 @@ if(weather === ""){
     temp = Number(prompt("What is the temperature outside (in F\xB0)?"));
     if(temp == false){
         console.log("Please enter a valid number.");
+    }else if(temp >= 25){
+        console.log("I am going landscaping today!");
     }
 }
