@@ -8,12 +8,21 @@ Conditionals Assignment: Industry-based
 
 var balanceToStart = "0"; // declares balanceToStart, defines it as $0
 var accountBalance = prompt("What is the balance on your last statement?"); // declares accountBalance, prompts the user to input the account balance listed on their last account statement
+var accountTotal;
 var startProject; // declares startProject
 var sendStatement; // declares sendStatement
 
 if(accountBalance == false){
     if(accountBalance != balanceToStart){
         console.log("Sorry, but that is not a valid number.");
-    }else if(accountBalance >= Number(balanceToStart)){
-  }
+    }else if(Number(accountBalance) >= balanceToStart){
+        var recentPmts = prompt("Have you made any payments recently? If so, how much (in total)?");
+        if(recentPmts == false && recentPmts != balanceToStart){
+            console.log("Please enter a valid number.")
+        }
+        accountTotal = accountBalance - recentPmts;
+        if(accountTotal <= balanceToStart){
+            console.log("yes");
+        }
+    }
 }
