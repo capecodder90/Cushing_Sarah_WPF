@@ -20,7 +20,7 @@ if(weather === ""){
     // if they entered Sunny with a capital S OR sunny with a lowercase s, prompt them to enter the temperature, store it as a number in the temp variable
 }else if(weather === sunCap || weather === sunLow){
     temp = Number(prompt("What is the temperature outside (in F\xB0)?"));
-    // if they don't enter anything into the prompt, or their entry is invalid, tell them in the console
+    // if what the user enters is not 0 AND they don't enter anything into the prompt, or their entry is invalid, tell them to enter a valid number in the console
     if(temp === !(0) && temp === false){
         console.log("Please enter a valid number.");
      // otherwise, check if the temperature is greater than or equal to the minTemp
