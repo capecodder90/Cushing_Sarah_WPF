@@ -8,3 +8,7 @@ Conditionals Assignment: Personal
 
 var weather = String(prompt("Is it raining, snowing, or sunny outside?"));
 var temp;
+
+if(weather === ""){
+    console.log("Please type in a valid response: raining, snowing, or sunny.");
+}
