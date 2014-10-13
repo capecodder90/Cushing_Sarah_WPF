@@ -11,4 +11,6 @@ var temp;
 
 if(weather === ""){
     console.log("Please type in a valid response: raining, snowing, or sunny.");
+}else if(weather === "sunny" || weather === "Sunny"){
+    temp = Number(prompt("What is the temperature outside (in F\xB0)?"));
 }
