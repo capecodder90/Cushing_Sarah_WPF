@@ -20,14 +20,14 @@ if(dayOfWeek === ""){
     console.log(badEntry);
     // if they entered Friday with a capital f OR friday with a lowercase f, prompt them to enter the temperature, store it as a number in the temp variable
 }else if(dayOfWeek === friCap || dayOfWeek === friLow){
-    temp = String(prompt("What is the temperature outside (in F\xB0)?"));
+    temp = String(prompt("What is the temperature outside (in \xB0F)?"));
     // if what the user enters is not 0 AND they don't enter anything into the prompt, or their entry is invalid, tell them to enter a valid number in the console
     if(temp != "0" && temp == false){
         console.log(badEntry);
      // otherwise, check if the temperature is greater than or equal to the minTemp
     }else if(temp >= minTemp){
         // if so, concatenate the string
-        goLandscape = "Its " + dayOfWeek + " and " + temp + " F\xB0 outside. I am going landscaping today!";
+        goLandscape = "Its " + dayOfWeek + " and " + temp + " \xB0F outside. I am going landscaping today!";
         // then write it to the console
         console.log(goLandscape);
      // otherwise, print to the console that I am going to sleep in today
