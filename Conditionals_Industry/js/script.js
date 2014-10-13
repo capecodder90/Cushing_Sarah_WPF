@@ -27,7 +27,7 @@ if(accountBalance == false && accountBalance != balanceToStart){
         accountTotal = accountBalance - recentPmts; // ... calculate the account's total by subtracting the recent payments from the account balance
         // if the account total is less than the required balance to start...
         if(accountTotal <= balanceToStart){
-            console.log("Your account is up-to-date. We will begin your project immediately."); // ... print the "we're good to go" message to the console
+            console.log("Your account is $" + accountTotal + ". We will begin your project immediately."); // ... print the "we're good to go" message to the console
         // otherwise...
         }else{
             console.log("Sorry, but your account still has a balance of $" + accountTotal + ". Please remit payment at your earliest convenience, and we will begin your project upon receipt."); // ... concatenate the string, and print the "sorry your account still has a balance" message to the console
