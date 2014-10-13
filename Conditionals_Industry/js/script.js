@@ -6,11 +6,11 @@ Conditionals Assignment: Industry-based
 
 // If the balance on the client’s account is paid off, I will start on their next project. Otherwise, I will send them a statement of their account.
 
-var balanceToStart = "0"; // declares balanceToStart, defines it as $0
+var balanceToStart = "0"; // declares balanceToStart, defines it as $0 in a string
 var accountBalance = prompt("What is the balance on your last statement?"); // declares accountBalance, prompts the user to input the account balance listed on their last account statement
 var accountTotal; // declares accountTotal
 var recentPmts; // declares recentPmts
-var invalid = "Sorry, but that is not a valid entry.";
+var invalid = "Sorry, but that is not a valid entry."; //declares invalid, defines it as the sorry invalid input message
 
 // if the user inputs nothing into the prompt AND the input is not equal to 0...
 if(accountBalance == false && accountBalance != balanceToStart){
