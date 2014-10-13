@@ -27,7 +27,7 @@ if(dayOfWeek === ""){
      // otherwise, check if the temperature is greater than or equal to the minTemp
     }else if(temp >= minTemp){
         // if so, concatenate the string
-        goLandscape = "Its " + dayOfWeek + " and " + temp + " \xB0F outside. I am going landscaping today!";
+        goLandscape = "Its " + dayOfWeek + " and " + temp + "\xB0F outside. I am going landscaping today!";
         // then write it to the console
         console.log(goLandscape);
      // otherwise, print to the console that I am going to sleep in today
