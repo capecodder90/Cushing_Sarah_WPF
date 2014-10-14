@@ -15,7 +15,7 @@ var noEntry = "That is not a valid entry.";
 
 if(oneBalloon == false && oneBalloon != "0"){
     console.log(noEntry);
-}else if(oneBalloon > Number(oneBalloon)){
+}else if(oneBalloon > 0){
     numOfBalloons = String(prompt("How many balloons do you want to buy?"));
     if(numOfBalloons == false && numOfBalloons != "0"){
         console.log(noEntry);
@@ -25,7 +25,11 @@ if(oneBalloon == false && oneBalloon != "0"){
         if(money == false && money != "0"){
             console.log(noEntry);
         }else if(money >= priceOfBalloons){
-            
+            console.log("You have $" + money + " in your wallet. You can buy the bunch of" + numOfBalloons + " that you wanted! Go have your wacky voice party!");
+        }else{
+            console.log("You only have $" + money + " and the " + numOfBalloons + " costs $" + priceOfBalloons + ". Sorry, you can't afford to have your wacky voice party.");
         }
     }
+}else{
+    console.log("If the balloons are free, just get some!");
 }
