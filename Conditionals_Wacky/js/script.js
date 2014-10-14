@@ -10,6 +10,7 @@ var oneBalloon = String(prompt("What is the price of one helium balloon?"));
 var numOfBalloons;
 var minNumBalloons = 1;
 var priceOfBalloons = oneBalloon * numOfBalloons;
+var money;
 var noEntry = "That is not a valid entry.";
 
 if(oneBalloon == false && oneBalloon != "0"){
@@ -20,5 +21,11 @@ if(oneBalloon == false && oneBalloon != "0"){
         console.log(noEntry);
     }else if(numOfBalloons >= minNumBalloons){
         priceOfBalloons = numOfBalloons * oneBalloon;
+        money = String(prompt("How much money is in your wallet?"));
+        if(money == false && money != "0"){
+            console.log(noEntry);
+        }else if(money >= priceOfBalloons){
+            
+        }
     }
 }
