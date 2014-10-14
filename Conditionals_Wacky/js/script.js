@@ -14,4 +14,11 @@ var noEntry = "That is not a valid entry.";
 
 if(oneBalloon == false && oneBalloon != "0"){
     console.log(noEntry);
+}else if(oneBalloon > Number(oneBalloon)){
+    numOfBalloons = String(prompt("How many balloons do you want to buy?"));
+    if(numOfBalloons == false && numOfBalloons != "0"){
+        console.log(noEntry);
+    }else if(numOfBalloons >= minNumBalloons){
+        priceOfBalloons = numOfBalloons * oneBalloon;
+    }
 }
