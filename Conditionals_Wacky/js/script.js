@@ -9,9 +9,9 @@ Conditionals Assignment: Wacky
 var oneBalloon = String(prompt("What is the price of one helium balloon?"));
 var numOfBalloons;
 var minNumBalloons = 1;
-var priceOfBalloons = oneBallo0n * 10;
+var priceOfBalloons = oneBalloon * numOfBalloons;
 var noEntry = "That is not a valid entry.";
 
-if(oneBalloon == false && oneBallon != "0"){
+if(oneBalloon == false && oneBalloon != "0"){
     console.log(noEntry);
 }
