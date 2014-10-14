@@ -25,16 +25,12 @@ if(dayOfWeek === ""){
     if(temp != "0" && temp == false){
         console.log(badEntry);
      // otherwise, check if the temperature is greater than or equal to the minTemp
-    }else if(temp >= minTemp){
-        // if so, concatenate the string
-        goLandscape = "Its " + dayOfWeek + " and " + temp + "\xB0F outside. I am going landscaping today!";
-        // then write it to the console
-        console.log(goLandscape);
-     // otherwise, print to the console that I am going to sleep in today
-    }else{
+    }else (temp >= minTemp) ?
+        // if so, concatenate the string then write it to the console
+        console.log("Its " + dayOfWeek + " and " + temp + "\xB0F outside. I am going landscaping today!") :
+        // otherwise, print to the console that I am going to sleep in today
         console.log(sleepIn);
-    }
-// otherwise, print to the console that I am going to sleep in today
+// if its not friday, print to the console that I am going to sleep in today
 }else{
     console.log(sleepIn);
 }
