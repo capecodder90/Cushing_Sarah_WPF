@@ -11,7 +11,7 @@ var numOfBalloons; // declares numOfBalloons
 var minNumBalloons = 1; // declares minNumBalloons, defines it as 1 balloon
 var priceOfBalloons; // declares priceOfBalloons
 var money; // declares money
-var noEntry = "That is not a valid entry."; // declares noEntry, stores the string for an empty prompt
+var noEntry = "That is not a valid entry. Please refresh and try again."; // declares noEntry, stores the string for an empty prompt
 
 // if the price of one balloon is not entered AND the price is not equal to "0"...
 if(oneBalloon == false && oneBalloon != "0"){
