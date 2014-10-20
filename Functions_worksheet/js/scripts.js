@@ -9,3 +9,4 @@ Assignment: Functions Worksheet
 // The circumference of a circle is equal to 2 times pi times the radius
 
 var two = 2;
+var pi = 3.14;
