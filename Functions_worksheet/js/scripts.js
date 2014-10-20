@@ -17,3 +17,8 @@ console.log("The circumference of the circle is " + circumference + "."); // con
 function calcCircumference(two, pi, radius){ // creates the function calcCircumference with the parameters two, pi and radius
     return two * pi * radius; // tells it to return the value of two times pi times radius
 }
+
+
+// Stung!
+
+// Find the number of bee stings required to kill and animal by dividing the victim's weight by 8.666666667 bee stings per pound
