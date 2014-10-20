@@ -13,3 +13,7 @@ var pi = 3.14;
 var radius = 28;
 var circumference = calcCircumference(two, pi, radius);
 console.log("The circumference of the circle is " + circumference + ".");
+
+function calcCircumference(two, pi, radius){
+    return two * pi * radius;
+}
