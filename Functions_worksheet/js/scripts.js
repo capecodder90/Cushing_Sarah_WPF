@@ -22,3 +22,6 @@ function calcCircumference(two, pi, radius){ // creates the function calcCircumf
 // Stung!
 
 // Find the number of bee stings required to kill and animal by dividing the victim's weight by 8.666666667 bee stings per pound
+
+var victimWeight = 150;
+
