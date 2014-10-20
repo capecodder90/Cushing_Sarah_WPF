@@ -24,8 +24,8 @@ function calcCircumference(radius){ // creates the function calcCircumference wi
 
 var stingsPerPound = 8.666666667; // declares stingsPerPound, defines it as 8.666666667
 var numBeeStings = calcBeeStings(140); // declares numBeeStings, defines it as equal to the value stored in the function calcBeeStings with the argument of victimWeight as 140 pounds
-console.log("It takes " + numBeeStings + " bee stings to kill this animal.");
+console.log("It takes " + numBeeStings + " bee stings to kill this animal."); // concatenates the string, then prints it to the console
 
-function calcBeeStings(victimWeight){
-    return victimWeight / stingsPerPound;
+function calcBeeStings(victimWeight){ // declares the calcBeeStings function with the parameter of victimWeight
+    return victimWeight / stingsPerPound; // tells it to return the value of victimWeight (set in the argument) divided by stingsPerPound
 }
