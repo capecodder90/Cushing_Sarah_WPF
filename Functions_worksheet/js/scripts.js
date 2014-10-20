@@ -11,3 +11,4 @@ Assignment: Functions Worksheet
 var two = 2;
 var pi = 3.14;
 var radius = 28;
+var circumference = calcCircumference(two, pi, radius);
