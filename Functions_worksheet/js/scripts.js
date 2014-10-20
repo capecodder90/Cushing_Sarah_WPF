@@ -26,7 +26,7 @@ function calcCircumference(two, pi, radius){ // creates the function calcCircumf
 var victimWeight = 150;
 var stingsPerPound = 8.666666667;
 var numBeeStings = calcBeeStings(victimWeight);
-console.log("It takes " + numBeeStings + " bee stings to kill this animal.")
+console.log("It takes " + numBeeStings + " bee stings to kill this animal.");
 
 function calcBeeStings(victimWeight){
     return victimWeight / stingsPerPound;
