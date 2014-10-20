@@ -22,8 +22,8 @@ function calcCircumference(radius){ // creates the function calcCircumference wi
 
 // Find the number of bee stings required to kill and animal by dividing the victim's weight by 8.666666667 bee stings per pound
 
-var stingsPerPound = 8.666666667;
-var numBeeStings = calcBeeStings(140);
+var stingsPerPound = 8.666666667; // declares stingsPerPound, defines it as 8.666666667
+var numBeeStings = calcBeeStings(140); // declares numBeeStings, defines it as equal to the value stored in the function calcBeeStings with the argument of victimWeight as 140 pounds
 console.log("It takes " + numBeeStings + " bee stings to kill this animal.");
 
 function calcBeeStings(victimWeight){
