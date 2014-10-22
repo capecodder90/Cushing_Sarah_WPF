@@ -12,13 +12,13 @@ var numPages = prompt("How many pages does your website need?");
 var discountAmt;
 var haveDiscount = prompt("Do you have a coupon?");
 var projectPrice;
-
-function calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt){
-    return numPages * pagePrice + customDesignPrice - discountAmt;
-}
-function projectResponse(){
+var projectResponse = function(){
     projectPrice = calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt);
     console.log("Your website build will cost you " + projectPrice + " with " + numPages + " pages.");
+};
+
+function calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt) {
+    return numPages * pagePrice + customDesignPrice - discountAmt;
 }
 
 if(haveDiscount === "yes" || haveDiscount === "Yes"){
