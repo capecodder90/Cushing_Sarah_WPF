@@ -17,14 +17,15 @@ function calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt){
     return numPages * pagePrice + customDesignPrice - discountAmt;
 }
 function projectResponse(){
+    projectPrice = calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt);
     console.log("Your website build will cost you " + projectPrice + " with " + numPages + " pages.");
 }
 
 if(haveDiscount === "yes" || haveDiscount === "Yes"){
     discountAmt = Number(prompt("What is the amount of the coupon?"));
+    projectResponse();
 }else if(haveDiscount === "no" || haveDiscount === "No"){
     discountAmt = 0;
-    projectPrice = calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt);
     projectResponse();
 }
 
