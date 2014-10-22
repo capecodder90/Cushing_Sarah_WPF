@@ -11,5 +11,6 @@ var sprinkles = Number(prompt("How many sprinkles do you need to eat?"));
 var cupcakesToEat = Number(prompt("How many cupcakes do you think you can eat right now?"));
 var orangeSprinklesTotal = function(orangeSprinkles, cupcakesToEat){
     return orangeSprinkles * cupcakesToEat;
-}
+};
 
+(orangeSprinklesTotal() >= sprinkles) ? console.log("That will work. You can eat enough cupcakes!") : console.log("That's only " + orangeSprinklesTotal + ". You need to eat more cupcakes!");
