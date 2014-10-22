@@ -8,11 +8,15 @@ Functions Assignment: Industry
 
 var customDesignPrice = 250;
 var pagePrice = 25;
-var numPages;
+var numPages = prompt("How many pages does your website need?");
+var projectPrice = calcProjectPrice();
 
+function calcProjectPrice(customDesignPrice, pagePrice, discountAmt){
+    return numPages * pagePrice + customDesignPrice - discountAmt;
+}
+console.log("Your website build will cost you " + projectPrice + " with " + numPages + ".");
 var haveDiscount = String(prompt("Do you have a coupon?"));
 if(haveDiscount === "yes" || haveDiscount === "Yes"){
-    console.log(haveDiscount)
-}
+    var discountAmt = prompt("What is the amount of the coupon?");
 
-var projectPrice = calcProjectPrice();
+}
