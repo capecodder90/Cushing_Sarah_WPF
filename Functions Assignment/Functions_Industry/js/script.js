@@ -10,6 +10,9 @@ var customDesignPrice = 250;
 var pagePrice = 25;
 var numPages;
 
-var haveDiscount = prompt("Do you have a coupon?");
+var haveDiscount = String(prompt("Do you have a coupon?"));
+if(haveDiscount === "yes" || haveDiscount === "Yes"){
+    console.log(haveDiscount)
+}
 
 var projectPrice = calcProjectPrice();
