@@ -14,3 +14,5 @@ var numOfJeans = howManyJeans(paycheck, inTheBank);
 function howManyJeans(paycheck, inTheBank){
     return parseInt((paycheck + inTheBank) / priceOfJeans);
 }
+
+console.log("I can buy " + numOfJeans + " pairs of jeans.");
