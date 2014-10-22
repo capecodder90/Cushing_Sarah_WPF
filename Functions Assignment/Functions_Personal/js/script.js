@@ -10,3 +10,7 @@ var paycheck = prompt("How much was this week's paycheck for?");
 var inTheBank = prompt("How much money in in the checking account?");
 var priceOfJeans = 42;
 var numOfJeans = howManyJeans(paycheck, inTheBank);
+
+function howManyJeans(paycheck, inTheBank){
+    return parseInt((paycheck + inTheBank) / priceOfJeans);
+}
