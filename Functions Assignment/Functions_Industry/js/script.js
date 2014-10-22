@@ -23,9 +23,9 @@ function projectResponse(){
 if(haveDiscount === "yes" || haveDiscount === "Yes"){
     discountAmt = Number(prompt("What is the amount of the coupon?"));
 }else{
+    discountAmt = 0;
+    projectPrice = calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt);
     projectResponse();
 }
-
-projectPrice = calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt);
 
 
