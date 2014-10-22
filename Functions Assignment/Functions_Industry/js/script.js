@@ -9,6 +9,7 @@ Functions Assignment: Industry
 var customDesignPrice = 250;
 var pagePrice = 25;
 var numPages;
-var projectPrice = calcProjectPrice();
 
 var haveDiscount = prompt("Do you have a coupon?");
+
+var projectPrice = calcProjectPrice();
