@@ -17,7 +17,7 @@ function calcProjectPrice(numPages, pagePrice, customDesignPrice, discountAmt){
     return numPages * pagePrice + customDesignPrice - discountAmt;
 }
 function projectResponse(){
-    console.log("Your website build will cost you " + projectPrice + " with " + numPages + ".");
+    console.log("Your website build will cost you " + projectPrice + " with " + numPages + " pages.");
 }
 
 if(haveDiscount === "yes" || haveDiscount === "Yes"){
